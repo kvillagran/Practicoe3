@@ -1,0 +1,120 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://images.vexels.com/content/73844/preview/travel-world-grid-background-368983.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.Contenedor {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: -2px;
+}
+
+.cotiza {
+  text-align: center;
+  margin-top: 3px;
+}
+
+.resumenpaquete {
+  text-align: center;
+}
+
+.avion {
+  width: 110px;
+  height: auto;
+  padding-left: 145px;
+  margin-bottom: -20px;
+  margin-top: -15px;
+}
+
+.resumen-contenedor {
+  background-color: #f0f0f0;
+  padding-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.resumenpaquete {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.total {
+  margin: 8px 0;
+  font-size: 18px;
+  color: #000000;
+  padding-left: 80px;
+}
+
+.resumen-contenedor {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #525252;
+}
+
+.formulario-contenedor {
+  margin-top: -8px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.formulario-contenedor label {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.formulario-contenedor input {
+  width: 345px;
+  padding: 4px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.formulario-contenedor select {
+  width: 355px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.formulario-contenedor button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 147px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.formulario-contenedor button:hover {
+  background-color: #0056b3;
+}
